@@ -11,3 +11,10 @@
 *.lai
 *.la
 *.a
+
+# Compiled Python code
+*.pyc
+*.pyo
+
+# If Cython is permitted...
+# some more exceptions here 
