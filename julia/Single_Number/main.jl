@@ -1,4 +1,5 @@
 import solution
+using Base.Test
 
 function leettest(state::Bool)
 	if state == true
@@ -11,5 +12,8 @@ end
 
 lstA = [1,2,2,3,3,4,4,5,5,6,6,7,1]
 
-@time leettest(solution.SingleNumber(lstA) == 7)
-@time leettest(solution.SingleNumber(lstA,13) == 7)
+#@time leettest(solution.SingleNumber(lstA) == 7)
+#@time leettest(solution.SingleNumber(lstA,13) == 7)
+
+@time @test solution.SingleNumber(lstA) == 7
+@time @test solution.SingleNumber(lstA,13) == 7 

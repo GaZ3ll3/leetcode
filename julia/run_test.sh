@@ -2,5 +2,5 @@
 
 for dir in `find . -type d | egrep [A-Z]`
 do
-cd $dir && python main.py && cd ..
+cd $dir && julia main.jl && cd ..
 done
