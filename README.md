@@ -3,18 +3,19 @@ leetcode
 
 exercises from leetcode
 
-codes are updating. 
+##codes are updating. 
+
+
+-[ ] python tests will use nose-python2.7.
+
+-[x] c++ tests will use makefile command `make test`.
+
+-[x] julia tests will use ``@test`` macro from ``Base.Test`` 
+
 ---
 
-python tests will use nose-python2.7.
-
-c++ tests will use makefile command `make test`.
-
-julia tests will use @test macro. 
-
----
-
-python and c++ codes are ready for copy and paste. 
+-[x] python and c++ codes should be ready for copy and paste.
+-[ ] performace to be added.
 
 
 ---
