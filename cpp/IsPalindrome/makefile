@@ -2,7 +2,7 @@ CXX:=g++
 
 #CXX:=clang
 
-CXXFLAGS:=-g -O3 -Wall -Werror -fPIC 
+CXXFLAGS:=-g -O3 -Wall -Werror -fPIC
 
 EXE:=a.out
 
