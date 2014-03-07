@@ -1,0 +1,8 @@
+language: cpp
+compiler:
+    - g++
+notifications:
+    email: false
+script:
+    - cd cpp && ./run_test.sh && cd ..
+    - cd python && ./run_test.sh && cd ..
