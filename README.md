@@ -1,4 +1,4 @@
-leetcode
+leetcode [![Build Status](https://travis-ci.org/GaZ3ll3/leetcode.png?branch=master)](https://travis-ci.org/GaZ3ll3/leetcode)
 ========
 
 exercises from leetcode
