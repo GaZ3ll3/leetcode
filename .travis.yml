@@ -6,3 +6,4 @@ notifications:
 script:
     - cd cpp && ./run_test.sh && cd ..
     - cd python && ./run_test.sh && cd ..
+    - echo "Done with cpp and python"
