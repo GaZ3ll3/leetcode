@@ -1,4 +1,4 @@
-#include "solution.h"
+#include "solution.hpp"
 
 int main(){
   int A[] = {1,2,2,3,3,4,4,5,5,6,6,7,8,8,1}; //  output 7
