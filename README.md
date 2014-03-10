@@ -6,7 +6,7 @@ exercises from leetcode
 ##codes are updating. 
 
 
-*  python tests will use nose-python2.7.
+*  python tests will use nosetests with python 2.7.
 
 *  c++ tests will use makefile command `make test`.
 
