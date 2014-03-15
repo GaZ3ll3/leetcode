@@ -69,5 +69,16 @@ function levelorder(root::Tree,Ftn) # BFS
 end
 
 
+#todo
+function NonRecurPreOrder(root::Tree)
+end
+
+function NonRecurPostOrder(root::Tree)
+end
+
+function NonRecurInOrder(root::Tree)
+end
+
+
 
 
