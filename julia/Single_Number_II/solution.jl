@@ -18,8 +18,4 @@ function SingleNumber(lst::Array{Int64,1})
 	return result_one
 end
 
-function SingleNumber(lst::Array{Int64,1},n::Int64)
-	return mapreduce(x->lst[x],$,[1:n])
-
-end
 end
