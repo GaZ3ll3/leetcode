@@ -7,7 +7,7 @@ import leetcode
 from nose.tools import eq_
 
 def test_maxDepth():
-	
+
 	root = leetcode.TreeNode(1);
 	leaf_1 = leetcode.TreeNode(2);
 	leaf_2 = leetcode.TreeNode(3);
@@ -25,6 +25,6 @@ def test_maxDepth():
 
 
 	c = solution.Solution()
-	
+
 	eq_(c.maxDepth(root),4)
 	eq_(c.maxDepth(leaf_3),2)
